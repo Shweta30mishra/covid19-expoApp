@@ -41,22 +41,6 @@ function HomeScreen({ navigation }) {
       .catch((error) => alert(error)) // display errors
       .finally(() => setLoading(false)); // change loading state
   }, []);
-
-  // // Also get call asynchronous function
-  // async function getCovidAsync() {
-  //   try {
-  //     let response = await fetch(covidURL);
-  //     let json = await response.json();
-  //     setDate(json.data[0].date);
-  //     setTitle(json.data[0].region);
-  //     setDeath(json.data[0].deaths);
-  //     setVaccine(json.data[0].vaccine_administration_total_doses);
-  //    // setDescription(json.description);
-  //     setLoading(false);
-  //   } catch (error) {
-  //     alert(error);
-  //   }
-  // }
    
   return (
     <SafeAreaView style={styles.container} edges={['top','left','right']}>
