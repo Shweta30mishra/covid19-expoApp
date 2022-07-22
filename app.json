@@ -1,10 +1,11 @@
 {
   "expo": {
     "name": "covid19-expoApp",
-    "slug": "covid19-expoApp",
+    "slug": "covid19-expoapp",
     "version": "1.0.0",
     "orientation": "portrait",
     "icon": "./assets/icon.png",
+    "owner":"shweta30",
     "userInterfaceStyle": "light",
     "splash": {
       "image": "./assets/splash.png",
